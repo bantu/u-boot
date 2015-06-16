@@ -1,0 +1,6 @@
+NAS440 BOARD
+M:	Evgeni Dobrev <evgeni@studio-punkt.com>
+S:	Maintained
+F:	board/Seagate/nas440/
+F:	include/configs/nas440.h
+F:	configs/nas440_defconfig

@@ -61,6 +61,9 @@ config TARGET_GOFLEXHOME
 config TARGET_NAS220
 	bool "BlackArmor NAS220"
 
+config TARGET_NAS440
+	bool "BlackArmor NAS440"
+
 endchoice
 
 config SYS_SOC
@@ -85,5 +88,6 @@ source "board/raidsonic/ib62x0/Kconfig"
 source "board/Seagate/dockstar/Kconfig"
 source "board/Seagate/goflexhome/Kconfig"
 source "board/Seagate/nas220/Kconfig"
+source "board/Seagate/nas440/Kconfig"
 
 endif
